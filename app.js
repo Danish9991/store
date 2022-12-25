@@ -48,7 +48,7 @@ const shopRouter = require("./routes/shop");
 const authRoutes = require("./routes/auth");
 const adminRoutes = require("./routes/admin");
 const errorController = require("./controllers/error");
-
+//middleware
 app.use(adminRoutes);
 app.use(shopRouter);
 app.use(authRoutes);
